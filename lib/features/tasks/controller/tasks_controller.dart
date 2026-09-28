@@ -31,3 +31,4 @@ final groupedTasksProvider = Provider.autoDispose<Map<String, List<Task>>>((ref)
     orElse: () => {'Work': [], 'Life': [], 'Deen': []},
   );
 });
+

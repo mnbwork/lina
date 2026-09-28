@@ -6,3 +6,4 @@ final notesProvider = StreamProvider.autoDispose<List<Note>>((ref) {
   final repository = ref.watch(notesRepositoryProvider);
   return repository.watchAllNotes();
 });
+
